@@ -1,4 +1,3 @@
-import React from 'react';
 // Import trực tiếp các icon từ thư viện lucide-react
 import { AlertCircle, Users, Star } from 'lucide-react'; 
 

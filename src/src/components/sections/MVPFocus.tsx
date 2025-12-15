@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckCircle, Zap, Home, ClipboardList, User, Calendar } from 'lucide-react';
 
 export const MVPFocus = () => {
