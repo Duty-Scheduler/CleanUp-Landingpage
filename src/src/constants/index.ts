@@ -50,27 +50,32 @@ export const ORGANIZE_FEATURES = [
 
 export const FOOTER_SECTIONS: FooterSection[] = [
   {
-    title: 'About Taskly',
+    title: 'About CleanUp',
     links: [
-      { label: "What's behind the boards", href: '#' },
+      { label: 'Our Mission', href: '#' },
+      { label: 'How It Works', href: '#how-it-works' },
     ],
   },
   {
-    title: 'Jobs',
+    title: 'Features',
     links: [
-      { label: 'Learn about open roles on the team', href: '#' },
+      { label: 'Duty Scheduling', href: '#' },
+      { label: 'Team Management', href: '#' },
+      { label: 'Task Tracking', href: '#' },
     ],
   },
   {
-    title: 'Apps',
+    title: 'Download',
     links: [
-      { label: 'Download the Taskly App', href: '#' },
+      { label: 'iOS App', href: '#' },
+      { label: 'Android App', href: '#' },
     ],
   },
   {
-    title: 'Contact us',
+    title: 'Support',
     links: [
-      { label: 'Need anything? Get in touch and we can help', href: '#' },
+      { label: 'Help Center', href: '#' },
+      { label: 'Contact Us', href: '#' },
     ],
   },
 ];
