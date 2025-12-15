@@ -1,4 +1,8 @@
 import { Header, Footer, Hero, HowItWorks, ReadyToOrganize } from './components';
+import {ProjectContext} from './components/sections/ProjectContext';
+import {MVPFocus} from './components/sections/MVPFocus';
+import {DesignResources} from './components/sections/DesignResources';
+
 
 function App() {
   return (
@@ -6,7 +10,10 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <ProjectContext/>
+        <MVPFocus/>
         <HowItWorks />
+        <DesignResources/>
         <ReadyToOrganize />
       </main>
       <Footer />
